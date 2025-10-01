@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia File Hosting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📁 Multimedia File Hosting</h1>
+            <p class="subtitle">Host and link images, videos, and GIFs for your PDFs</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>About This Repository</h2>
+            <p>This repository hosts multimedia files that can be linked in PDF documents. Files are organized by type and can be accessed via direct URLs.</p>
+        </section>
+
+        <section class="usage">
+            <h2>How to Use</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>1. Upload Files</h3>
+                    <p>Add your multimedia files to the appropriate folder: <code>images/</code>, <code>videos/</code>, or <code>gifs/</code></p>
+                </div>
+                <div class="step">
+                    <h3>2. Get Direct URL</h3>
+                    <p>Access files using: <code>https://username.github.io/files/[folder]/[filename]</code></p>
+                </div>
+                <div class="step">
+                    <h3>3. Link in PDF</h3>
+                    <p>Use the direct URL as a hyperlink in your PDF documents</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="file-browser">
+            <h2>Browse Files</h2>
+            
+            <div class="category">
+                <h3>📷 Images</h3>
+                <p class="category-desc">Supported formats: JPG, PNG, SVG, WebP</p>
+                <div class="file-list" id="images-list">
+                    <p class="empty-state">No images uploaded yet. Add images to the <code>images/</code> folder.</p>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3>🎬 Videos</h3>
+                <p class="category-desc">Supported formats: MP4, WebM, OGG</p>
+                <div class="file-list" id="videos-list">
+                    <p class="empty-state">No videos uploaded yet. Add videos to the <code>videos/</code> folder.</p>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3>🎭 GIFs</h3>
+                <p class="category-desc">Animated GIF files (looping)</p>
+                <div class="file-list" id="gifs-list">
+                    <div class="file-item">
+                        <div class="file-info">
+                            <span class="file-name">noisy_qft_eps_transition.gif</span>
+                            <a href="gifs/noisy_qft_eps_transition.gif" class="file-url" target="_blank">View/Download</a>
+                        </div>
+                        <div class="file-preview">
+                            <img src="gifs/noisy_qft_eps_transition.gif" alt="Noisy QFT Epsilon Transition" style="max-width: 100%; height: auto; border-radius: 4px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="url-structure">
+            <h2>URL Structure</h2>
+            <div class="url-examples">
+                <div class="url-example">
+                    <strong>Images:</strong>
+                    <code class="url">https://[username].github.io/files/images/[filename].jpg</code>
+                </div>
+                <div class="url-example">
+                    <strong>Videos:</strong>
+                    <code class="url">https://[username].github.io/files/videos/[filename].mp4</code>
+                </div>
+                <div class="url-example">
+                    <strong>GIFs:</strong>
+                    <code class="url">https://[username].github.io/files/gifs/[filename].gif</code>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Hosted on GitHub Pages | <a href="https://github.com/Shaukat-aziz/files">View Repository</a></p>
+        </div>
+    </footer>
+</body>
+</html>
