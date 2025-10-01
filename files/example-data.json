@@ -1,0 +1,36 @@
+{
+  "title": "Sample Data File",
+  "description": "This is an example JSON file for the public file hosting service",
+  "version": "1.0.0",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com"
+      }
+    ],
+    "products": [
+      {
+        "id": 101,
+        "name": "Sample Product 1",
+        "price": 29.99
+      },
+      {
+        "id": 102,
+        "name": "Sample Product 2",
+        "price": 49.99
+      }
+    ]
+  },
+  "metadata": {
+    "created": "2024-01-01",
+    "author": "File Hosting Service",
+    "purpose": "Example demonstration"
+  }
+}
