@@ -1,0 +1,17 @@
+This is an example text document for the public file hosting service.
+
+You can replace this file with your own content, or add new files to the repository.
+
+Features of this file hosting service:
+- Simple and easy to use
+- Direct download links
+- Publicly accessible
+- Free to use
+- Hosted on GitHub Pages
+
+To add more files:
+1. Place your files in the files/ directory
+2. Update index.html to include your new files
+3. Commit and push to GitHub
+
+Enjoy sharing your files!
