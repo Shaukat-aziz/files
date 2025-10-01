@@ -23,6 +23,8 @@ files/
 
 ## 🚀 Getting Started
 
+> **📖 For detailed setup instructions, see [SETUP.md](SETUP.md)**
+
 ### 1. Enable GitHub Pages
 
 1. Go to your repository settings
